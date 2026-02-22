@@ -10,34 +10,40 @@
     />
     <title>Tailwind Landing Page</title>
 </head>
-<body>
-    <header class="bg-gray-800 m-auto py-3">
+<body >
+    <header class="bg-gray-800 m-auto py-3 ">
         <img src="img/logo.png" alt="logo" class="w-10 m-auto"/>
         <p class="text-center text-white">Blog</p>
         
     </header>
-<!-- Card -->
-    <div>
-        <img src="./img/post_houseplants.jpg"/>
+ <!-- Container de Cards -->
+    <main class="p-5">
+     <!-- Card -->
+    <section class="bg-gray-200 p-5 rounded ">
+        <img src="./img/post_houseplants.jpg" class="rounded mb-3"/>
         <div>
-            <div>
-                <img src="./img/author_basil.jpg"/>
-                <p>Fern Greenleaf</p>
+            <!-- Usuario -->
+            <div class="flex items-center gap-3">
+                <img src="./img/author_basil.jpg" class="rounded-full w-8 "/>
+                <p class="text-gray-500 text-[15px]">Fern Greenleaf</p>
             </div>
-                <h1>Houseplants with Attitude: Meet the Divas of Your Living Room</h1>
-                <p>
+                <h1 class="text-gray-600 font-bold text-xl w-[300px] mb-1 mt-1">Houseplants with Attitude: Meet the Divas of Your Living Room</h1>
+                <p class="text-sm">
                     If you thought your Monstera was just sitting quietly in the corner, think again! 
                     These houseplants are full of sass, drama, and demands. From diva-like Calatheas 
                     that throw a tantrum if you mist them wrong to ferns that seem to love dying for 
                     attention, we’re here to introduce you to the plant 
                     kingdom’s most dramatic members. 
                 </p>
+                
+                <span class="h-[0.1px] w-full block bg-gray-300 mt-4"></span>
             <!-- Card Footer-->
-            <div>
-                <span></span>
-                <span></span>
+            <div class="flex justify-between mt-3 px-1">
+                <span class="text-gray-500">0 likes</span>
+                <span><i class="fa-regular fa-heart text-red-400 "></i></span>
             </div>
         </div>
-    </div>
+    </section>
+</main>
 </body>
 </html>
