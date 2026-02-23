@@ -13,13 +13,13 @@
 <body >
     <header class="bg-gray-800 m-auto py-3 ">
         <img src="img/logo.png" alt="logo" class="w-10 m-auto"/>
-        <p class="text-center text-white">Blog</p>
+        <p class="text-center text-white cursor-pointer">Blog</p>
         
     </header>
  <!-- Container de Cards -->
-    <main class="p-5">
+    <main class="p-5 flex flex-col gap-3">
      <!-- Card -->
-    <section class="bg-gray-200 p-5 rounded ">
+    <section class="bg-gray-200 p-5 rounded">
         <img src="./img/post_houseplants.jpg" class="rounded mb-3"/>
         <div>
             <!-- Usuario -->
@@ -28,7 +28,7 @@
                 <p class="text-gray-500 text-[15px]">Fern Greenleaf</p>
             </div>
                 <h1 class="text-gray-600 font-bold text-xl w-[300px] mb-1 mt-1">Houseplants with Attitude: Meet the Divas of Your Living Room</h1>
-                <p class="text-sm">
+                <p class="text-sm line-clamp-3">
                     If you thought your Monstera was just sitting quietly in the corner, think again! 
                     These houseplants are full of sass, drama, and demands. From diva-like Calatheas 
                     that throw a tantrum if you mist them wrong to ferns that seem to love dying for 
@@ -44,6 +44,97 @@
             </div>
         </div>
     </section>
+
+     <!-- Card -->
+    <section class="bg-gray-200 p-5 rounded ">
+        <img src="./img/post_houseplants.jpg" class="rounded mb-3"/>
+        <div>
+            <!-- Usuario -->
+            <div class="flex items-center gap-3">
+                <img src="./img/author_basil.jpg" class="rounded-full w-8 "/>
+                <p class="text-gray-500 text-[15px]">Fern Greenleaf</p>
+            </div>
+                <h1 class="text-gray-600 font-bold text-xl w-[300px] mb-1 mt-1">Houseplants with Attitude: Meet the Divas of Your Living Room</h1>
+                <p class="text-sm line-clamp-3">
+                    If you thought your Monstera was just sitting quietly in the corner, think again! 
+                    These houseplants are full of sass, drama, and demands. From diva-like Calatheas 
+                    that throw a tantrum if you mist them wrong to ferns that seem to love dying for 
+                    attention, we’re here to introduce you to the plant 
+                    kingdom’s most dramatic members. 
+                </p>
+                
+                <span class="h-[0.1px] w-full block bg-gray-300 mt-4"></span>
+            <!-- Card Footer-->
+            <div class="flex justify-between mt-3 px-1">
+                <span class="text-gray-500">0 likes</span>
+                <span><i class="fa-regular fa-heart text-red-400 "></i></span>
+            </div>
+        </div>
+    </section>
+
+     <!-- Card -->
+    <section class="bg-gray-200 p-5 rounded ">
+        <img src="./img/post_kill.jpg" class="rounded mb-3"/>
+        <div>
+            <!-- Usuario -->
+            <div class="flex items-center gap-3">
+                <img src="./img/author_basil.jpg" class="rounded-full w-8 "/>
+                <p class="text-gray-500 text-[15px]">Fern Greenleaf</p>
+            </div>
+                <h1 class="text-gray-600 font-bold text-xl w-[300px] mb-1 mt-1">Houseplants with Attitude: Meet the Divas of Your Living Room</h1>
+                <p class="text-sm line-clamp-3">
+                    If you thought your Monstera was just sitting quietly in the corner, think again! 
+                    These houseplants are full of sass, drama, and demands. From diva-like Calatheas 
+                    that throw a tantrum if you mist them wrong to ferns that seem to love dying for 
+                    attention, we’re here to introduce you to the plant 
+                    kingdom’s most dramatic members. 
+                </p>
+                
+                <span class="h-[0.1px] w-full block bg-gray-300 mt-4"></span>
+            <!-- Card Footer-->
+            <div class="flex justify-between mt-3 px-1">
+                <span class="text-gray-500">0 likes</span>
+                <span><i class="fa-regular fa-heart text-red-400 "></i></span>
+            </div>
+        </div>
+    </section>
+
+     <!-- Card -->
+    <section class="bg-gray-200 p-5 rounded ">
+        <img src="./img/post_houseplants.jpg" class="rounded mb-3"/>
+        <div>
+            <!-- Usuario -->
+            <div class="flex items-center gap-3">
+                <img src="./img/author_basil.jpg" class="rounded-full w-8 "/>
+                <p class="text-gray-500 text-[15px]">Fern Greenleaf</p>
+            </div>
+                <h1 class="text-gray-600 font-bold text-xl w-[300px] mb-1 mt-1">Houseplants with Attitude: Meet the Divas of Your Living Room</h1>
+                <p class="text-sm line-clamp-3">
+                    If you thought your Monstera was just sitting quietly in the corner, think again! 
+                    These houseplants are full of sass, drama, and demands. From diva-like Calatheas 
+                    that throw a tantrum if you mist them wrong to ferns that seem to love dying for 
+                    attention, we’re here to introduce you to the plant 
+                    kingdom’s most dramatic members. 
+                </p>
+                
+                <span class="h-[0.1px] w-full block bg-gray-300 mt-4"></span>
+            <!-- Card Footer-->
+            <div class="flex justify-between mt-3 px-1">
+                <span class="text-gray-500">10 likes</span>
+                <span><i class="fa-regular fa-heart text-red-400 "></i></span>
+            </div>
+        </div>
+    </section>
+
 </main>
+    <footer class="bg-gray-800 p-3 flex justify-center flex-col items-center gap-4">
+        <h1 class="text-center text-white text-lg uppercase font-bold">Subscribe</h1>
+        <p class="text-center text-white text-sm">Want to get notified when a new blog post is up? Sign up for the newsletter 
+            and never miss out!</p>
+        <form class="flex">
+            <input type="email" class="rounded-l-md p-2 italic w-[300px]" placeholder="email@example.com">
+            <button class="bg-gray-400 text-gray-800 p-2 rounded-r-md">Sign Up</button>
+        </form>
+    </footer>
 </body>
 </html>
